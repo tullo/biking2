@@ -1,17 +1,16 @@
 # biking2
 
-
 [![Build Status](https://github.com/michael-simons/biking2/workflows/build/badge.svg)](https://github.com/michael-simons/biking2/actions) [![Test coverage](https://sonarcloud.io/api/project_badges/measure?project=eu.michael-simons%3Abiking2&metric=coverage)](https://sonarcloud.io/dashboard?id=eu.michael-simons%3Abiking2) [![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=eu.michael-simons%3Abiking2&metric=alert_status)](https://sonarcloud.io/dashboard?id=eu.michael-simons%3Abiking2)
 
 ## Abstract
 
-This is a project where i try out Java 8, Spring / Spring Boot and AngularJS. The project is live at [biking.michael-simons.eu][1]. To find out more, checkout the [about page][2] or start reading the series of blog posts:
+This is a project where i try out Java 11, Spring / Spring Boot and AngularJS. The project is live at [biking.michael-simons.eu][1]. To find out more, checkout the [about page][2] or start reading the series of blog posts:
 
-[Developing a web application with Spring Boot, AngularJS and Java 8][3]
+[Developing a web application with Spring Boot, AngularJS and Java 11][3]
 
 You may also want to have a look at the client companion of this app, [BikingFX][4]
 
-## Architecture 
+## Architecture
 
 The projects architecture is [completely documented][6] inside the [arc42][7] structure, using the AsciiDoc format from the [arc42-template][8].
 
