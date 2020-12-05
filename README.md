@@ -1,6 +1,6 @@
 # biking2
 
-[![Build Status](https://github.com/michael-simons/biking2/workflows/build/badge.svg)](https://github.com/michael-simons/biking2/actions) [![Test coverage](https://sonarcloud.io/api/project_badges/measure?project=eu.michael-simons%3Abiking2&metric=coverage)](https://sonarcloud.io/dashboard?id=eu.michael-simons%3Abiking2) [![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=eu.michael-simons%3Abiking2&metric=alert_status)](https://sonarcloud.io/dashboard?id=eu.michael-simons%3Abiking2)
+[![Build Status](https://github.com/tullo/biking2/workflows/build/badge.svg)](https://github.com/tullo/biking2/actions) [![Test Coverage](https://sonarcloud.io/api/project_badges/measure?project=tullo_biking2&metric=coverage)](https://sonarcloud.io/dashboard?id=tullo_biking2) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=tullo_biking2&metric=alert_status)](https://sonarcloud.io/dashboard?id=tullo_biking2)
 
 ## Abstract
 
