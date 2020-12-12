@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:20.10
 
 RUN apt update && apt install -y gpsbabel maven
 RUN mvn -version
@@ -13,8 +13,8 @@ RUN mvn verify
 COPY src src
 RUN mvn verify
 
-FROM openjdk:11-jre-slim
-RUN addgroup --gid 3000 --system biking2 && adduser --uid 100000 --system --gid 3000 --no-create-home --disabled-password biking2
+FROM openjdk:16-jdk-alpine3.12
+RUN addgroup -g 3000 --system biking2 && adduser --uid 100000 --system -g 3000 --no-create-home --disabled-password biking2
 USER 100000
 COPY --from=0 --chown=biking2:biking2 /target/biking2-3.0.11-SNAPSHOT.jar /target/biking2-3.0.11-SNAPSHOT.jar
 
