@@ -46,7 +46,7 @@
     <build-date>${maven.build.timestamp}</build-date>
 
     <asciidoctor-maven-plugin.version>1.5.7.1</asciidoctor-maven-plugin.version>
-    <bootstrap.version>3.1.1</bootstrap.version>
+    <bootstrap.version>3.4.1</bootstrap.version>
     <checkstyle.version>8.29</checkstyle.version>
     <jacoco-maven-plugin.version>0.8.5</jacoco-maven-plugin.version>
     <java.version>11</java.version>
